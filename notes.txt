@@ -1,0 +1,14 @@
+Project: weapon selector thing
+
+Inheritance:
+Weapon class that a few items inherit from.
+
+Polymorphism:
+All weapons can shoot but what happens varies a lot!
+
+Encapsulation:
+Weapons can get/set damage with buffs but it shouldn't be negative.
+
+Abstraction
+Weapon functions are seperated into a few different ones, get weapon stats and display
+

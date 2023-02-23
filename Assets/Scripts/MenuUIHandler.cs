@@ -33,6 +33,7 @@ public class MenuUIHandler : MonoBehaviour
 
     public void StartNew()
     {
+        SavePlayerName();
         SceneManager.LoadScene(1);
         startMenu.SetActive(false);
     }

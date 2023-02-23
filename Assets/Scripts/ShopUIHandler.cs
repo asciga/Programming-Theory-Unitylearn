@@ -23,6 +23,7 @@ public class ShopUIHandler : MonoBehaviour
         sphereButton.onClick.AddListener(delegate {ChooseGun(sphereGun); });
     }
 
+    //ABSTRACTION
     private void ChooseGun(Gun gunObject)
     {
         gunObject.printGunInfo();
